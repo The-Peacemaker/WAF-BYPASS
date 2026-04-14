@@ -151,11 +151,6 @@ JSON includes:
 - Fail pipeline when `strength_score` falls below policy threshold.
 - Track trend of `weighted_exposure` over time.
 
-## Screenshots To Capture (for GitHub)
-
-- Terminal run showing generation + summary metrics.
-- Snippet of `results.json` recommendations section.
-- Lab response examples for blocked vs allowed test strings.
 
 ## Disclaimer
 
