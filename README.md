@@ -151,21 +151,6 @@ JSON includes:
 - Fail pipeline when `strength_score` falls below policy threshold.
 - Track trend of `weighted_exposure` over time.
 
-## Screenshots To Capture (for GitHub)
-
-Capture these five screenshots for your submission:
-
-1. The local lab home page at `http://127.0.0.1:5000/` showing the title and endpoint instructions.
-2. A terminal window running the framework command with the live summary metrics visible.
-3. The generated `reports/results.json` file opened in the browser or editor, showing the summary and recommendations.
-4. The lab response for a blocked safe test input, showing the `blocked` result and reason.
-5. The lab response for an allowed safe test input, showing the `allowed` result and preview fields.
-
-Recommended framing for each screenshot:
-
-- Keep the browser or terminal chrome visible so the context is obvious.
-- Make sure the URL, command, or file name is readable.
-- Capture the key output area only; avoid unnecessary scrolling when possible.
 
 ## Disclaimer
 
