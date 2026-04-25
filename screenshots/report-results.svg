@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#bg2)"/>
+  <rect x="80" y="60" width="1440" height="980" rx="28" fill="#0b1220" opacity="0.35"/>
+  <rect x="60" y="40" width="1440" height="980" rx="28" fill="#e5ecf6"/>
+  <rect x="60" y="40" width="1440" height="58" rx="28" fill="#dbe4f0"/>
+  <circle cx="98" cy="69" r="10" fill="#ef4444"/>
+  <circle cx="128" cy="69" r="10" fill="#f59e0b"/>
+  <circle cx="158" cy="69" r="10" fill="#22c55e"/>
+  <text x="210" y="77" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#334155">WAF Report Results</text>
+  <rect x="110" y="130" width="1380" height="860" rx="22" fill="url(#card)" stroke="#cbd5e1"/>
+  <text x="160" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#0f172a">Defensive Analysis Summary</text>
+  <rect x="160" y="250" width="1280" height="170" rx="18" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="205" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#475569">total</text>
+  <text x="205" y="365" font-family="Consolas, monospace" font-size="44" fill="#0f172a">20</text>
+  <text x="430" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#475569">blocked</text>
+  <text x="430" y="365" font-family="Consolas, monospace" font-size="44" fill="#0f172a">8</text>
+  <text x="650" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#475569">allowed</text>
+  <text x="650" y="365" font-family="Consolas, monospace" font-size="44" fill="#0f172a">12</text>
+  <text x="875" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#475569">block_rate</text>
+  <text x="875" y="365" font-family="Consolas, monospace" font-size="44" fill="#0f172a">0.4</text>
+  <text x="1095" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#475569">strength_score</text>
+  <text x="1095" y="365" font-family="Consolas, monospace" font-size="44" fill="#0f172a">51.85</text>
+  <rect x="160" y="450" width="1280" height="170" rx="18" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="205" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600" fill="#0f172a">Recommendations</text>
+  <text x="205" y="560" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#334155">Normalize inputs before inspection and block suspicious tag-like markers.</text>
+  <text x="205" y="605" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#334155">Some safe test probes were allowed; add canonicalization depth, stronger context-aware rules, and output encoding checks.</text>
+  <rect x="160" y="650" width="1280" height="240" rx="18" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="205" y="710" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600" fill="#0f172a">Sample Result Snapshot</text>
+  <text x="205" y="765" font-family="Consolas, monospace" font-size="22" fill="#334155">{"blocked": false, "reason": "allowed:no_rule_match"}</text>
+  <text x="205" y="815" font-family="Consolas, monospace" font-size="22" fill="#334155">{"blocked": true, "reason": "blocked_by:test_xss"}</text>
+  <text x="205" y="865" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#475569">This image reflects the live JSON analysis produced by the framework.</text>
+</svg>

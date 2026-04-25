@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect x="120" y="80" width="1360" height="840" rx="24" fill="#0b1220" opacity="0.35"/>
+  <rect x="100" y="60" width="1360" height="840" rx="24" fill="#dbe4f0"/>
+  <rect x="100" y="60" width="1360" height="54" rx="24" fill="#e2e8f0"/>
+  <circle cx="136" cy="87" r="10" fill="#ef4444"/>
+  <circle cx="166" cy="87" r="10" fill="#f59e0b"/>
+  <circle cx="196" cy="87" r="10" fill="#22c55e"/>
+  <text x="240" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#334155">WAF Defensive Lab</text>
+  <rect x="140" y="150" width="1320" height="710" rx="18" fill="url(#panel)"/>
+  <text x="180" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="#0f172a">WAF Defensive Validation Lab</text>
+  <text x="180" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#334155">This local lab intentionally contains weak filtering patterns for safe testing with non-executing markers.</text>
+  <text x="180" y="405" font-family="Consolas, monospace" font-size="30" fill="#0f172a">POST JSON to /submit with field input.</text>
+  <rect x="180" y="500" width="560" height="170" rx="18" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="220" y="560" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#1e293b">Endpoint</text>
+  <text x="220" y="610" font-family="Consolas, monospace" font-size="34" fill="#0f172a">http://127.0.0.1:5000/submit</text>
+  <rect x="760" y="500" width="620" height="170" rx="18" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="800" y="560" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#1e293b">Purpose</text>
+  <text x="800" y="610" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#0f172a">Safe validation of filter strength and output encoding</text>
+  <text x="180" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#475569">Captured from the running local lab used by the defensive framework.</text>
+</svg>

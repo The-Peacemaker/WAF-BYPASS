@@ -151,6 +151,18 @@ JSON includes:
 - Fail pipeline when `strength_score` falls below policy threshold.
 - Track trend of `weighted_exposure` over time.
 
+## Screenshots To Capture (for GitHub)
+
+Captured assets:
+
+![WAF lab home](screenshots/lab-home.svg)
+
+![Analysis report](screenshots/report-results.svg)
+
+Recommended additional captures:
+
+- Terminal run showing generation + summary metrics.
+- Lab response examples for blocked vs allowed test strings.
 
 ## Disclaimer
 
